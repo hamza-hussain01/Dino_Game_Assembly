@@ -1,16 +1,16 @@
-# Dino: The Night Rex
+# Dino: Apex of the Night
 
 An 8-bit dinosaur runner game built from scratch in **16-bit x86 NASM assembly** for **DOSBox**, created as my Computer Organization and Assembly Language (COAL) semester project.
 
 ## Screenshots
 
-| Intro Screen | Gameplay |
+| Title Screen | Night Transition |
 | :---: | :---: |
-| ![Screen 1](screenshot1.png) | ![Screen 2](screenshot2.png) |
+| ![Title Screen](screenshot1.png) | ![Night Transition](screenshot2.png) |
 
-| Obstacles | Game Over |
+| Start Screen | Gameplay & Obstacles |
 | :---: | :---: |
-| ![Screen 3](screenshot3.png) | ![Screen 4](screenshot4.png) |
+| ![Start Screen](screenshot3.png) | ![Gameplay & Obstacles](screenshot4.png) |
 
 ## What's Inside
 * **VGA Mode `0x13` Graphics (`320x200`, 256 colors):** Hand-crafted pixel sprites, animated running frames, moving obstacles, and a binary intro title screen loaded from `intro.bin`.
@@ -21,6 +21,3 @@ An 8-bit dinosaur runner game built from scratch in **16-bit x86 NASM assembly**
 You'll need **NASM** and **DOSBox** installed.
 
 1. Open DOSBox and mount the folder where you cloned/downloaded the repo:
-   ```bat
-   mount c D:\FAST_Uni_Docs\Dino_Game_Assembly
-   c:
