@@ -1,0 +1,8 @@
+﻿*.com
+*.exe
+*.obj
+*.bin
+!intro.bin
+.venv/
+.vscode/
+.idea/
